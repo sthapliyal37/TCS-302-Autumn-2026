@@ -233,7 +233,7 @@ Students should use the material to understand concepts and develop their own im
 
 ## References
 
-1.Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein (CLRS)
+1.Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein (CLRS).
 2. Ellis Horowitz and Sartaj Sahni, *Fundamentals of Data Structures*.
 3. Robert L. Kruse, *Data Structures and Program Design in C*.
 4. A. M. Tenenbaum, *Data Structures Using C and C++*.
