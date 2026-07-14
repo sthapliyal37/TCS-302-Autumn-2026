@@ -1,7 +1,6 @@
----
 
 ## 50-Day Learning Plan
-
+---
 | Day | Topic                                            | Activity                       |
 | --: | ------------------------------------------------ | ------------------------------ |
 |   1 | Introduction to Data Structures and ADTs         | Lecture                        |
@@ -54,5 +53,4 @@
 |  48 | Graph representation, BFS, DFS and disjoint sets | Lecture and coding             |
 |  49 | MST and shortest-path algorithms                 | Lecture and problems           |
 |  50 | Comprehensive Test, Viva and Course Revision     | Assessment                     |
-
 ---
