@@ -1,8 +1,7 @@
-# Data Structures with C (TCS302)
+# TCS302 – Data Structures with C
 
-> **Graphic Era (Deemed to be University), Dehradun**  
-> **Department of Computer Science and Engineering**  
-> **Semester III**
+**B.Tech. Computer Science & Engineering (Semester III)**  
+**Graphic Era (Deemed to be University), Dehradun**
 
 ---
 
@@ -14,243 +13,206 @@
 | **Course Title** | Data Structures with C |
 | **Department** | Computer Science and Engineering |
 | **Semester** | III |
-| **Category** | Discipline Specific Core (DSC) |
 | **Credits** | 3 |
-| **Prerequisites** | Fundamentals of Computer & Introduction to Programming (TCS101), Programming for Problem Solving (TCS201) |
-
----
-
-# Course Description
-
-This course introduces fundamental and advanced data structures using the C programming language. Students learn how to analyze algorithm efficiency, implement linear and non-linear data structures, perform searching and sorting operations, and solve real-world computational problems efficiently.
-
-The course emphasizes problem-solving, algorithmic thinking, memory management, and practical implementation through programming assignments and coding exercises.
+| **Contact Hours** | L: 3, T: 0, P: 0 |
+| **Prerequisite** | Programming in C |
+| **Category** | Department Core (DC) |
 
 ---
 
 # Course Outcomes (COs)
 
-After successful completion of this course, students will be able to:
+Upon successful completion of this course, students will be able to:
 
-### CO1
-Describe the concept of Data Structures, compare various data structures, and evaluate how the choice of a data structure impacts program performance.
-
-### CO2
-Identify and propose appropriate data structures for solving real-world computational problems.
-
-### CO3
-Implement operations such as searching, insertion, deletion, traversal, sorting, and manipulation on various data structures.
-
-### CO4
-Apply advanced data structures including Binary Search Trees, AVL Trees, Hash Tables, Priority Queues, Binary Heaps, and Abstract Data Types.
-
-### CO5
-Analyze and integrate the advantages of different data structures to design efficient and innovative computational solutions.
+- **CO1:** Describe fundamental data structures and analyze how the choice of data structures affects program efficiency.
+- **CO2:** Compare different data structures in terms of time complexity, space complexity, and practical applications.
+- **CO3:** Identify and select suitable data structures for solving real-world computational problems.
+- **CO4:** Implement searching, insertion, deletion, traversal, and other operations on linear and non-linear data structures.
+- **CO5:** Apply advanced data structures including Binary Search Trees, AVL Trees, Hash Tables, Priority Queues, and Abstract Data Types.
+- **CO6:** Design efficient solutions by combining multiple data structures and algorithms for innovative problem-solving.
 
 ---
 
-# Course Contents
+# Course Syllabus
 
----
+## Unit I – Introduction, Arrays, Stacks and Recursion
 
-# Unit 1 – Foundations of Data Structures
-
-## Introduction
+### Introduction
 
 - Basic Terminology
+- Pointer Fundamentals
+- Dynamic Memory Allocation
 - Elementary Data Organization
 - Data Structure Operations
-- Abstract Data Type (ADT)
 - Algorithm Complexity
 - Time-Space Trade-off
 
-## Pointers and Memory
+### Arrays
 
-- Pointer Fundamentals
-- Pointer Arithmetic
-- Structures
-- Dynamic Memory Allocation
-- Self-referential Structures
-
-## Arrays
-
-- Introduction to Arrays
-- Array Representation
-- Array Analysis
+- Array Definition
+- Representation and Analysis
 - One-Dimensional Arrays
-- Multi-Dimensional Arrays
+- Multidimensional Arrays
 - Address Calculation
 - Applications of Arrays
 - Arrays as Function Parameters
 - Ordered Lists
-- Sparse Matrix Representation
+- Sparse Matrices
 
-## Stacks
+### Stacks
 
-- Introduction
 - Stack ADT
 - Array Representation
 - Linked Representation
-- Push Operation
-- Pop Operation
+- Push and Pop Operations
 - Stack Applications
 - Infix to Prefix Conversion
 - Infix to Postfix Conversion
 - Postfix Expression Evaluation
 
-## Recursion
+### Recursion
 
-- Recursive Definition
+- Recursive Definitions
 - Recursive Functions in C
 - Tail Recursion
 - Tower of Hanoi
-- Recursive Problem Solving
+- Applications of Recursion
+
+**Contact Hours:** 10
 
 ---
 
-# Unit 2 – Linear Data Structures
+## Unit II – Queues and Linked Lists
 
-## Queues
+### Queues
 
 - Queue ADT
-- Queue using Arrays
-- Queue using Linked List
+- Array Implementation
+- Linked Implementation
 - Queue Operations
 - Circular Queue
 - Double Ended Queue (Deque)
 - Priority Queue
 
-## Linked Lists
+### Linked Lists
 
 - Singly Linked List
 - Header Linked List
-- Traversing Linked List
+- Traversal
 - Searching
+- Insertion
+- Deletion
 - Overflow and Underflow
-- Insertion Operations
-- Deletion Operations
 - Doubly Linked List
 - Linked List using Arrays
 - Polynomial Representation
 - Polynomial Addition
 - Generalized Linked List
 
+**Contact Hours:** 10
+
 ---
 
-# Unit 3 – Trees, Searching and Hashing
+## Unit III – Trees and Hashing
 
-## Trees
+### Trees
 
-- Basic Terminology
+- Tree Terminology
 - Binary Trees
 - Binary Tree Representation
-- Algebraic Expression Trees
+- Expression Trees
 - Complete Binary Trees
-- Priority Queue
 - Extended Binary Trees
-- Linked Representation
 - Array Representation
-- Binary Tree Traversals
+- Linked Representation
+- Tree Traversals
 - Threaded Binary Trees
-- Traversal of Threaded Trees
-- Huffman Coding
+- Huffman Algorithm
 - Huffman Trees
 
-## Searching
+### Searching
 
 - Sequential Search
 - Binary Search
-- Performance Analysis
-- Comparison of Searching Techniques
+- Complexity Analysis
 
-## Hashing
+### Hashing
 
 - Hash Tables
 - Hash Functions
-- Collision Resolution Techniques
+- Collision Resolution
 - Hash Table Implementation
 
+**Contact Hours:** 9
+
 ---
 
-# Unit 4 – Sorting and Balanced Trees
+## Unit IV – Sorting and Binary Search Trees
 
-## Sorting
+### Sorting Algorithms
 
-- Bubble Sort
 - Insertion Sort
+- Bubble Sort
 - Quick Sort
-- Merge Sort
+- Two-Way Merge Sort
 - Heap Sort
-- Sorting on Multiple Keys
-- Internal Sorting
-- Complexity Analysis
-- Practical Considerations
+- Sorting on Different Keys
+- Practical Considerations in Internal Sorting
 
-## Binary Search Trees
+### Binary Search Trees
 
-- Binary Search Tree
-- Searching in BST
-- Insertion
-- Deletion
-- Complexity Analysis
+- Binary Search Tree (BST)
+- BST Insertion
+- BST Deletion
+- Search Complexity
 - Path Length
 - AVL Trees
-- Binary Heaps
+
+**Contact Hours:** 9
 
 ---
 
-# Unit 5 – File Structures and Graphs
+## Unit V – File Structures and Graphs
 
-## File Structures
+### File Structures
 
 - Physical Storage Media
 - File Organization
 - Record Organization
 - Sequential Files
-- Primary Index
-- Secondary Index
 - Indexing
 - Hashing
-- B Trees
-- B+ Trees
-- Comparison of Indexing and Hashing
+- Primary Index
+- Secondary Index
+- B+ Tree
+- B Tree
+- Indexing vs Hashing
 
-## Graphs
+### Graphs
 
+- Graph Terminology
 - Graph Representation
-- Bipartite Graph Checking
-- Depth First Search (DFS)
 - Breadth First Search (BFS)
+- Depth First Search (DFS)
+- Minimum Spanning Tree (MST)
 
-## Disjoint Sets
-
-- Union-Find Data Structure
-- Path Compression
-- Union by Rank
-- Union by Size
-
-## Minimum Spanning Tree
-
-- Kruskal's Algorithm
-- Prim's Algorithm
-
-## Shortest Path Algorithms
-
-- Dijkstra's Algorithm
-- Bellman-Ford Algorithm
+**Contact Hours:** 8
 
 ---
 
-# Learning Resources
+# Contact Hours Summary
 
-## Textbooks
-
-| Author | Book |
-|---------|------|
-| Ellis Horowitz & Sartaj Sahni | Fundamentals of Data Structures |
-| R. L. Kruse | Data Structures and Program Design in C |
-| A. M. Tenenbaum | Data Structures Using C & C++ |
-| Kyle Loudon | Data Structures and Algorithms with Object-Oriented Design Patterns in C++ |
-| Bruno R. Preiss | Data Structures and Algorithms in C++ |
+| Unit | Topics | Hours |
+|------|--------|------:|
+| I | Introduction, Arrays, Stacks, Recursion | 10 |
+| II | Queues and Linked Lists | 10 |
+| III | Trees, Searching and Hashing | 9 |
+| IV | Sorting and Binary Search Trees | 9 |
+| V | File Structures and Graphs | 8 |
+| **Total** |  | **46** |
 
 ---
+
+
+
+

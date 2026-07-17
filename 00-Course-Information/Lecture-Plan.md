@@ -1,56 +1,82 @@
+# 50-Day Learning Plan
 
-## 50-Day Learning Plan
+| Day | Topic | Activity |
+| ---: | -------------------------------------------------------------- | ------------------------------ |
+| **Unit I – Introduction, Arrays, Stacks & Recursion** |||
+| 1 | Introduction to Data Structures, ADTs and Applications | Lecture |
+| 2 | Memory Organization, Pointers and Pointer Arithmetic | Lecture & Coding |
+| 3 | Dynamic Memory Allocation (`malloc`, `calloc`, `realloc`, `free`) | Lecture & Coding |
+| 4 | Data Structure Operations, Algorithm Analysis, Time-Space Trade-off | Lecture |
+| 5 | Asymptotic Analysis (Big-O, Ω, Θ) | Tutorial & Numerical Problems |
+| 6 | Arrays: Representation, Address Calculation & Applications | Lecture |
+| 7 | Multidimensional Arrays, Ordered Lists & Sparse Matrices | Lecture & Coding |
+| 8 | Stack ADT using Arrays and Linked Representation | Lecture & Coding |
+| 9 | Stack Applications: Expression Conversion, Postfix Evaluation, Recursion & Tower of Hanoi | Lecture & Coding |
+| 10 | **Quiz 1 (Unit I)** | Quiz |
+
 ---
-| Day | Topic                                            | Activity                       |
-| --: | ------------------------------------------------ | ------------------------------ |
-|   1 | Introduction to Data Structures and ADTs         | Lecture                        |
-|   2 | Memory organization and pointers in C            | Lecture and coding             |
-|   3 | Pointer arithmetic and pointer applications      | Lecture and practice           |
-|   4 | Structures and self-referential structures       | Lecture and coding             |
-|   5 | Dynamic memory allocation                        | Lecture and coding             |
-|   6 | Time and space complexity                        | Lecture and numerical analysis |
-|   7 | Asymptotic notations: O, Ω and Θ                 | Tutorial                       |
-|   8 | One-dimensional and multidimensional arrays      | Lecture                        |
-|   9 | Address calculation and sparse matrices          | Lecture and problems           |
-|  10 | Quiz 1: Pointers, complexity and arrays          | Quiz                           |
-|  11 | Stack ADT and array implementation               | Lecture and coding             |
-|  12 | Linked implementation of stack                   | Lecture and coding             |
-|  13 | Infix, prefix and postfix expressions            | Lecture                        |
-|  14 | Expression conversion using stacks               | Problem solving                |
-|  15 | Postfix expression evaluation                    | Coding session                 |
-|  16 | Recursion and recursive processes                | Lecture                        |
-|  17 | Tail recursion and recursion analysis            | Tutorial                       |
-|  18 | Tower of Hanoi and recursive problems            | Coding session                 |
-|  19 | Unit I revision and advanced problems            | Tutorial                       |
-|  20 | Programming Test 1                               | Coding test                    |
-|  21 | Queue ADT and array implementation               | Lecture                        |
-|  22 | Circular queue                                   | Lecture and coding             |
-|  23 | Deque and priority queue                         | Lecture                        |
-|  24 | Queue applications and implementation            | Problem solving                |
-|  25 | Singly linked list representation                | Lecture and coding             |
-|  26 | Linked-list insertion operations                 | Coding session                 |
-|  27 | Linked-list deletion and searching               | Coding session                 |
-|  28 | Linked-list reversal and cycle detection         | Advanced practice              |
-|  29 | Doubly and circular linked lists                 | Lecture and coding             |
-|  30 | Quiz 2: Queues and linked lists                  | Quiz                           |
-|  31 | Polynomial representation using linked lists     | Lecture and coding             |
-|  32 | Generalized linked lists                         | Lecture                        |
-|  33 | Tree terminology and binary trees                | Lecture                        |
-|  34 | Binary-tree representations                      | Lecture and coding             |
-|  35 | Recursive tree traversals                        | Coding session                 |
-|  36 | Iterative tree traversals                        | Advanced coding                |
-|  37 | Threaded binary trees                            | Lecture                        |
-|  38 | Expression trees and Huffman coding              | Lecture and problems           |
-|  39 | Searching and hashing revision                   | Tutorial                       |
-|  40 | Mid-Course Test                                  | Written and coding test        |
-|  41 | Linear search and binary search                  | Lecture and analysis           |
-|  42 | Hash functions and load factor                   | Lecture                        |
-|  43 | Collision-resolution techniques                  | Lecture and coding             |
-|  44 | Bubble sort and insertion sort                   | Lecture and analysis           |
-|  45 | Merge sort and quick sort                        | Lecture and coding             |
-|  46 | Heap sort, binary heaps and priority queues      | Lecture and coding             |
-|  47 | Binary search trees and AVL trees                | Lecture and coding             |
-|  48 | Graph representation, BFS, DFS and disjoint sets | Lecture and coding             |
-|  49 | MST and shortest-path algorithms                 | Lecture and problems           |
-|  50 | Comprehensive Test, Viva and Course Revision     | Assessment                     |
+
+| Day | Topic | Activity |
+| ---: | -------------------------------------------------------------- | ------------------------------ |
+| **Unit II – Queues & Linked Lists** |||
+| 11 | Queue ADT using Arrays | Lecture |
+| 12 | Circular Queue | Lecture & Coding |
+| 13 | Deque and Priority Queue | Lecture & Coding |
+| 14 | Queue Applications | Problem Solving |
+| 15 | Introduction to Singly Linked Lists | Lecture & Coding |
+| 16 | Traversal, Searching, Overflow & Underflow | Lecture |
+| 17 | Insertion and Deletion Algorithms | Coding Session |
+| 18 | Doubly Linked List & Header Linked List | Lecture & Coding |
+| 19 | Linked List in Arrays, Polynomial Representation & Generalized Linked Lists | Lecture |
+| 20 | **Programming Test 1 (Units I & II)** | Coding Assessment |
+
 ---
+
+| Day | Topic | Activity |
+| ---: | -------------------------------------------------------------- | ------------------------------ |
+| **Unit III – Trees, Searching & Hashing** |||
+| 21 | Tree Terminology and Binary Trees | Lecture |
+| 22 | Complete Binary Trees, Extended Binary Trees | Lecture |
+| 23 | Binary Tree Representations (Array & Linked) | Lecture & Coding |
+| 24 | Binary Tree Traversals | Lecture & Coding |
+| 25 | Threaded Binary Trees & Traversals | Lecture |
+| 26 | Expression Trees and Huffman Coding | Lecture & Coding |
+| 27 | Sequential Search and Binary Search | Lecture |
+| 28 | Hash Tables, Hash Functions and Collision Resolution | Lecture & Coding |
+| 29 | Hash Table Implementation & Practice | Coding Session |
+| 30 | **Mid-Course Test (Units I–III)** | Written + Coding Test |
+
+---
+
+| Day | Topic | Activity |
+| ---: | -------------------------------------------------------------- | ------------------------------ |
+| **Unit IV – Sorting & Binary Search Trees** |||
+| 31 | Sorting Fundamentals | Lecture |
+| 32 | Bubble Sort and Insertion Sort | Lecture & Coding |
+| 33 | Merge Sort | Lecture & Coding |
+| 34 | Quick Sort | Lecture & Coding |
+| 35 | Heap Sort and Practical Considerations for Internal Sorting | Lecture |
+| 36 | Sorting on Different Keys & Complexity Analysis | Tutorial |
+| 37 | Binary Search Trees (BST) | Lecture & Coding |
+| 38 | BST Insertion, Deletion & Path Length | Lecture & Coding |
+| 39 | AVL Trees | Lecture & Coding |
+| 40 | **Quiz 2 (Sorting & BST)** | Quiz |
+
+---
+
+| Day | Topic | Activity |
+| ---: | -------------------------------------------------------------- | ------------------------------ |
+| **Unit V – File Structures & Graphs** |||
+| 41 | Physical Storage Media, File Organization & Record Blocking | Lecture |
+| 42 | Sequential Files, Primary & Secondary Indices | Lecture |
+| 43 | B-Tree, B+ Tree & Indexing vs Hashing | Lecture |
+| 44 | Graph Representation (Adjacency Matrix & List) | Lecture & Coding |
+| 45 | Graph Traversals (DFS & BFS) | Lecture & Coding |
+| 46 | Minimum Spanning Tree (Prim's Algorithm) | Lecture & Coding |
+| 47 | Minimum Spanning Tree (Kruskal's Algorithm) | Lecture & Coding |
+| 48 | Comprehensive Graph Problems & Applications | Problem Solving |
+| 49 | Complete Course Revision & Interview Questions | Revision |
+| 50 | **End-Sem Mock Test + Viva + Course Wrap-up** | Assessment |
+
+---
+
