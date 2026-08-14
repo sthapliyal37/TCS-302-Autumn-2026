@@ -6,7 +6,7 @@
 
 ---
 
-## 📘 About This Repository
+##  About This Repository
 
 This repository contains the learning resources for **TCS 302 — Data Structures Using C**.
 The objective is not only to understand how data structures work, but also to learn:
@@ -21,7 +21,7 @@ Students are encouraged to use this repository regularly for lectures, coding pr
 
 ---
 
-# 🎯 Course Learning Objectives
+# Course Learning Objectives
 
 By the end of this course, students should be able to:
 
@@ -35,7 +35,7 @@ By the end of this course, students should be able to:
 8. Apply data structures to real-world problem-solving.
 
 
-# 📚 Syllabus
+# Syllabus
 
 ## Unit I — Foundations, Arrays and Stacks
 
@@ -257,18 +257,6 @@ Important implementations include:
 - Bellman-Ford algorithm
 - Floyd-Warshall algorithm
 
-
----
-
-# 📖 References
-
-1. Ellis Horowitz and Sartaj Sahni, *Fundamentals of Data Structures*.
-2. R. Kruse et al., *Data Structures and Program Design in C*.
-3. A. M. Tenenbaum, *Data Structures Using C & C++*.
-4. K. Loudon, *Mastering Algorithms with C*.
-5. Adam Drozdek, *Data Structures and Algorithms in C++*.
-
----
 
 
 
