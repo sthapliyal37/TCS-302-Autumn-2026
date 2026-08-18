@@ -1,218 +1,123 @@
-# TCS302 – Data Structures with C
+# Syllabus
 
-**B.Tech. Computer Science & Engineering (Semester III)**  
-**Graphic Era (Deemed to be University), Dehradun**
+## Unit I — Foundations, Arrays and Stacks
 
----
-
-# Course Information
-
-| Item | Details |
-|------|---------|
-| **Course Code** | TCS302 |
-| **Course Title** | Data Structures with C |
-| **Department** | Computer Science and Engineering |
-| **Semester** | III |
-| **Credits** | 3 |
-| **Contact Hours** | L: 3, T: 0, P: 0 |
-| **Prerequisite** | Programming in C |
-| **Category** | Department Core (DC) |
-
----
-
-# Course Outcomes (COs)
-
-Upon successful completion of this course, students will be able to:
-
-- **CO1:** Describe fundamental data structures and analyze how the choice of data structures affects program efficiency.
-- **CO2:** Compare different data structures in terms of time complexity, space complexity, and practical applications.
-- **CO3:** Identify and select suitable data structures for solving real-world computational problems.
-- **CO4:** Implement searching, insertion, deletion, traversal, and other operations on linear and non-linear data structures.
-- **CO5:** Apply advanced data structures including Binary Search Trees, AVL Trees, Hash Tables, Priority Queues, and Abstract Data Types.
-- **CO6:** Design efficient solutions by combining multiple data structures and algorithms for innovative problem-solving.
-
----
-
-# Course Syllabus
-
-## Unit I – Introduction, Arrays, Stacks and Recursion
-
-### Introduction
-
-- Basic Terminology
-- Pointer Fundamentals
-- Dynamic Memory Allocation
-- Elementary Data Organization
-- Data Structure Operations
-- Algorithm Complexity
-- Time-Space Trade-off
-
-### Arrays
-
-- Array Definition
-- Representation and Analysis
-- One-Dimensional Arrays
-- Multidimensional Arrays
-- Address Calculation
-- Applications of Arrays
-- Arrays as Function Parameters
-- Ordered Lists
-- Sparse Matrices
-
-### Stacks
-
+- Basic terminology
+- Pointers
+- Structures
+- Algorithm complexity
+- Time-space trade-off
+- Abstract Data Type (ADT)
+- Single-dimensional arrays
+- Multidimensional arrays
+- Address calculation
+- Applications of arrays
+- Sparse matrices
 - Stack ADT
-- Array Representation
-- Linked Representation
-- Push and Pop Operations
-- Stack Applications
-- Infix to Prefix Conversion
-- Infix to Postfix Conversion
-- Postfix Expression Evaluation
+- Array implementation of stack
+- Push, Pop and Peek operations
+- Infix, Prefix and Postfix expressions
+- Expression conversion
+- Postfix evaluation
+- Recursion
+- Types of recursion
 
-### Recursion
-
-- Recursive Definitions
-- Recursive Functions in C
-- Tail Recursion
-- Tower of Hanoi
-- Applications of Recursion
-
-**Contact Hours:** 10
+**Contact Hours: 10**
 
 ---
 
-## Unit II – Queues and Linked Lists
-
-### Queues
+## Unit II — Queues and Linked Lists
 
 - Queue ADT
-- Array Implementation
-- Linked Implementation
-- Queue Operations
-- Circular Queue
-- Double Ended Queue (Deque)
-- Priority Queue
+- Array implementation of queues
+- Queue operations
+- Circular queue
+- Deque
+- Priority queue
+- Singly linked lists
+- Two-way header list
+- Linked implementation of stack
+- Linked implementation of queue
+- Doubly linked lists
+- Circular linked lists
+- Linked list in array
+- Polynomial representation and addition
+- Generalized linked lists
 
-### Linked Lists
-
-- Singly Linked List
-- Header Linked List
-- Traversal
-- Searching
-- Insertion
-- Deletion
-- Overflow and Underflow
-- Doubly Linked List
-- Linked List using Arrays
-- Polynomial Representation
-- Polynomial Addition
-- Generalized Linked List
-
-**Contact Hours:** 10
+**Contact Hours: 10**
 
 ---
 
-## Unit III – Trees and Hashing
+## Unit III — Trees, BST, AVL and Heaps
 
-### Trees
+- Tree terminology
+- Binary trees
+- Binary tree representation
+- Algebraic / Expression trees
+- Complete binary trees
+- Extended binary trees
+- Array representation of binary trees
+- Linked representation of binary trees
+- Binary tree traversals
+- Threaded binary trees
+- Threaded tree traversal
+- Huffman algorithm
+- Huffman trees
+- Binary heaps
+- Binary Search Trees
+- BST insertion
+- BST deletion
+- Search complexity
+- Path length
+- AVL trees
+- AVL rotations and balancing
 
-- Tree Terminology
-- Binary Trees
-- Binary Tree Representation
-- Expression Trees
-- Complete Binary Trees
-- Extended Binary Trees
-- Array Representation
-- Linked Representation
-- Tree Traversals
-- Threaded Binary Trees
-- Huffman Algorithm
-- Huffman Trees
-
-### Searching
-
-- Sequential Search
-- Binary Search
-- Complexity Analysis
-
-### Hashing
-
-- Hash Tables
-- Hash Functions
-- Collision Resolution
-- Hash Table Implementation
-
-**Contact Hours:** 9
+**Contact Hours: 12**
 
 ---
 
-## Unit IV – Sorting and Binary Search Trees
+## Unit IV — Sorting, Searching and Hashing
 
-### Sorting Algorithms
+- Sorting properties
+- Insertion sort
+- Bubble sort
+- Quick sort
+- Two-way merge sort
+- Heap sort
+- Sequential search
+- Binary search
+- Searching comparison and analysis
+- Hash tables
+- Hash functions
+- Load factor
+- Collision resolution
+- Hash table implementation
 
-- Insertion Sort
-- Bubble Sort
-- Quick Sort
-- Two-Way Merge Sort
-- Heap Sort
-- Sorting on Different Keys
-- Practical Considerations in Internal Sorting
-
-### Binary Search Trees
-
-- Binary Search Tree (BST)
-- BST Insertion
-- BST Deletion
-- Search Complexity
-- Path Length
-- AVL Trees
-
-**Contact Hours:** 9
+**Contact Hours: 8**
 
 ---
 
-## Unit V – File Structures and Graphs
+## Unit V — File Structures and Graphs
 
-### File Structures
-
-- Physical Storage Media
-- File Organization
-- Record Organization
-- Sequential Files
+- File organization
+- Organization of records into blocks
 - Indexing
-- Hashing
-- Primary Index
-- Secondary Index
-- B+ Tree
-- B Tree
-- Indexing vs Hashing
+- B-Trees
+- B+ Tree index files
+- Graph representation
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- Disjoint Sets
+- Union-Find
+- Path Compression
+- Union by Rank / Size
+- Minimum Spanning Trees
+- Kruskal's Algorithm
+- Prim's Algorithm
+- Dijkstra's Algorithm
+- Bellman-Ford Algorithm
+- Floyd-Warshall Algorithm
 
-### Graphs
-
-- Graph Terminology
-- Graph Representation
-- Breadth First Search (BFS)
-- Depth First Search (DFS)
-- Minimum Spanning Tree (MST)
-
-**Contact Hours:** 8
-
----
-
-# Contact Hours Summary
-
-| Unit | Topics | Hours |
-|------|--------|------:|
-| I | Introduction, Arrays, Stacks, Recursion | 10 |
-| II | Queues and Linked Lists | 10 |
-| III | Trees, Searching and Hashing | 9 |
-| IV | Sorting and Binary Search Trees | 9 |
-| V | File Structures and Graphs | 8 |
-| **Total** |  | **46** |
+**Contact Hours: 6**
 
 ---
-
-
-
-
